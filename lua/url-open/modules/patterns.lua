@@ -30,7 +30,7 @@ M.DEEP_PATTERN =
 --- @tfield function(pattern_found)|boolean|nil extra_condition : A callback function will be called with the pattern found as argument. If the function returns false, the pattern will be ignored. If the function returns true, the pattern will be used.
 M.PATTERNS = {
 	{
-		pattern = "(https?://[%w-_%.]+%.%w[%w-_%.%%%?%.:/+=&%%[%]#]*)",
+		pattern = "(https?://[%w-_%.]+%.%w[%w-_%.%%%?%.:/+=&%%[%]#~]*)",
 		prefix = "",
 		suffix = "",
 		file_patterns = nil,
